@@ -26,12 +26,55 @@ video {
 /* Utils */
 
 .container {
-	max-width: 1200px;
+	width: 1300px;
 	margin: 0 auto;
 }
 
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+/* style */
+
+header {
+	display: flex;
+	align-items: center;
+	min-height: 80px;
+	padding: 10px 0;
+    color: white;
+
+	/* debug */
+	background-color: #ff6900;
+}
+
+.nav {
+	display: flex;
+	line-height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>* {
+	flex-basis: 20%;
+	padding: 5px 10px;
+}
+
+.logo{
+    max-width: 16%;
+}
+
+.links {
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+	
+}
+
+.social {
+	text-align: right;
 }
