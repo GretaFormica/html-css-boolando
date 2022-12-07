@@ -28,7 +28,6 @@ video {
 .container {
 	width: 1300px;
 	margin: 0 auto;
-    border: 2px dashed black;
 }
 
 a{
@@ -39,6 +38,7 @@ a{
 li{
     list-style-type: none;
 }
+
 /* style */
 
 header {
@@ -52,7 +52,6 @@ header {
     width: 100%;
     z-index: 1;
 
-	/* debug */
 	background-color: #ff6900;
 }
 
@@ -61,8 +60,6 @@ header {
 	line-height: 30px;
     justify-content: space-between;
     align-items: center;
-
-    
 }
 
 .nav>* {
@@ -79,7 +76,6 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
-	
 }
 
 .social {
