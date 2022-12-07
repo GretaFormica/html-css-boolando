@@ -50,6 +50,7 @@ header {
 
     position: fixed;
     width: 100%;
+    z-index: 1;
 
 	/* debug */
 	background-color: #ff6900;
@@ -101,6 +102,50 @@ main{
 
 .col{
     width: 30%;
+    position: relative;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+
+.discount.green{
+    background-color: green;
+    left: 45px;
+}
+
+.text-red{
+    color: red;
+}
+
+.none{
+    display: none;
+}
+
+.heart{
+    display: none;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
+.col:hover .block{
+    display: none;
+}
+
+.col:hover .none{
+    display: block;
+}
+
+.col:hover .heart{
+    display: block;
 }
 
 /* FOOTER */
