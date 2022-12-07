@@ -28,6 +28,7 @@ video {
 .container {
 	width: 1300px;
 	margin: 0 auto;
+    border: 2px dashed black;
 }
 
 a{
@@ -47,6 +48,9 @@ header {
 	padding: 10px 0;
     color: white;
 
+    position: fixed;
+    width: 100%;
+
 	/* debug */
 	background-color: #ff6900;
 }
@@ -56,6 +60,8 @@ header {
 	line-height: 30px;
     justify-content: space-between;
     align-items: center;
+
+    
 }
 
 .nav>* {
@@ -77,4 +83,21 @@ header {
 
 .social {
 	text-align: right;
+}
+
+/* MAIN */
+
+main{
+    padding-top: 100px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col{
+    width: 30%;
 }
